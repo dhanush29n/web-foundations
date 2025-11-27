@@ -1,9 +1,7 @@
------layout
- 
 /* ==============================================
    RESPONSIVE NAVIGATION - MOBILE FIRST
    ============================================== */
- 
+
 .navbar {
   background-color: var(--color-bg);
   box-shadow: var(--shadow-sm);
@@ -107,7 +105,9 @@
 .nav-links li {
   opacity: 0;
   transform: translateX(20px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .nav-links.active li {
