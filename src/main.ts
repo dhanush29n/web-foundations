@@ -57,7 +57,7 @@ function setupMobileMenu(): void {
  * validateEmail('invalid-email') → false
  * validateEmail('no@domain') → false
  */
-function validateEmail(email: string): boolean {
+function validateEmail(_email: string): boolean {
   // TODO: Implement email validation using regex
   // Replace 'true' with actual validation logic
   return true;
@@ -77,7 +77,7 @@ function validateEmail(email: string): boolean {
  * validateRequired('') → false
  * validateRequired('   ') → false (only spaces)
  */
-function validateRequired(value: string): boolean {
+function validateRequired(_value: string): boolean {
   // TODO: Check if value is not empty after trimming
   // Replace 'true' with actual validation logic
   return true;
@@ -97,7 +97,7 @@ function validateRequired(value: string): boolean {
  * validateMinLength('Hello World', 5) → true
  * validateMinLength('Hi', 5) → false
  */
-function validateMinLength(value: string, minLength: number): boolean {
+function validateMinLength(_value: string, _minLength: number): boolean {
   // TODO: Check if value length is >= minLength
   // Replace 'true' with actual validation logic
   return true;
